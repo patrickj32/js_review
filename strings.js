@@ -7,7 +7,7 @@ console.log("strings.js");
 // Assign 1 variable a color
 // Assign 1 variable a name
 
-let verb = "run";
+let verb = "Run";
 let noun = "frog";
 let adjective = "angry";
 let color = "red";
@@ -28,11 +28,16 @@ console.log(madlib)
 
 
 
-let madlibLiteral = `${madlib}`
+let madlibLiteral = `${verb} Daniel! 
+Theres a ${noun}! 
+He looks very ${adjective}. 
+Look at those ${color} eyes!`
 console.log(madlibLiteral)
 
 // 4. Why would we want to convert a string to a number in JavaScript and what is one way to accomplish this?
 
 // to be able to perform mathematical operations on a string
 let string = '123'
-console.log(string + 2)
+let result = parseInt(string) + 2
+
+console.log(result)
