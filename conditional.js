@@ -78,8 +78,8 @@ console.log(message);
 
 // 9. After the last console.log(), refactor the code from the previous question to use an if statement to set the message variable.
 
-let soldOut = true;
-let onSale = true
+// let soldOut = true;
+// let onSale = true
 
 if (!soldOut && onSale) {
 
