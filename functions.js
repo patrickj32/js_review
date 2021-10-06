@@ -16,18 +16,21 @@ greeting()
 
 let words = "fuckfunctions"
 
-function countingCharacters(words) {
-    if (words.length < 10) {
-        console.log(words.length)
+function countingCharacters(potato) {
+    if (potato.length < 10) {
+        console.log(potato.length)
     }
 
     else {
-        console.log(words, "is too long")
+        console.log(potato, "is too long")
     }
 }
 
 countingCharacters(words)
+countingCharacters("Eric")
 
+// Note: "potato" means nothing. its basically a placeholder. Its just something getting passed into the function. 
+// The function has to have something
 
 
 // 3.Create a function named difference that accepts two numbers as parameters.
@@ -46,13 +49,13 @@ countingCharacters(words)
 
 function difference(number1, number2) {
 
-    if (isNaN(number1, number2)) {
+    if (typeof number1 !== 'number' || typeof number2 !== 'number') {
         return "Inputs(s) must be a number!";
     }
-    return number1 - number2
+    return Math.abs(number1 - number2);
 }
-console.log(difference(8, 5))
-console.log(difference("Bob", 8))
+console.log(difference(4, 5))
+console.log(difference(10, '8'))
 
 
 
@@ -68,23 +71,23 @@ console.log(difference("Bob", 8))
 
 
 
-function advancedGreeting(hour) {
-    if (hour < 12) {
-        return "Good Morning"
-    }
-    else if (hour >= 12 && hour <= 18) {
-        return "Good afternoon";
-    }
-    else if (hour >= 18 && hour <= 24) {
-        return "Good Night";
-    }
-    return "Invalid hour input";
-}
+// function advancedGreeting(hour) {
+//     if (hour < 12) {
+//         return "Good Morning"
+//     }
+//     else if (hour >= 12 && hour <= 18) {
+//         return "Good afternoon";
+//     }
+//     else if (hour >= 18 && hour <= 24) {
+//         return "Good Night";
+//     }
+//     return "Invalid hour input";
+// }
 
-console.log(advancedGreeting(11))
-console.log(advancedGreeting(15))
-console.log(advancedGreeting(20))
-console.log(advancedGreeting(50))
+// console.log(advancedGreeting(11))
+// console.log(advancedGreeting(15))
+// console.log(advancedGreeting(20))
+// console.log(advancedGreeting(50))
 
 
 

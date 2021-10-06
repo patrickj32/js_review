@@ -20,7 +20,7 @@ for (let i = 100; i >= 0; i--) {
 
 // 4. Write a for loop that counts from 0 to 50 but only prints the odd numbers that are multiples of 5 to the console.
 for (let i = 0; i <= 50; i++) {
-    if (i % 2 && i % 5 == 0) {
+    if (i % 2 && i % 5 === 0) {
         console.log(i)
     }
 
