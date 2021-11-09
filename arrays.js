@@ -132,13 +132,13 @@ console.log(numbersSquaredarray)
 // Print arraySum to the console.
 
 
-const numbersArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-const numbersSquaredarray = numbersArray.map(x => x ** 2)
-console.log(numbersSquaredarray)
+const numbersArray1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const numbersSquaredarray1 = numbersArray1.map(x => x ** 2)
+console.log(numbersSquaredarray1)
 
 let arraySum = 0;
-for (let i = 0; i < numbersSquaredarray.length; i++) {
-    arraySum += numbersSquaredarray[i];
+for (let i = 0; i < numbersSquaredarray1.length; i++) {
+    arraySum += numbersSquaredarray1[i];
 
 }
 console.log(arraySum)

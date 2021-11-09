@@ -3,7 +3,7 @@ console.log("variables.js");
 // 1.
 let dog = "Carl";
 const legs = 4;
-// var color = "black";
+var color = "black";
 
 // 2
 console.log(dog);
